@@ -33,7 +33,7 @@
                     <br> 
                 </address> 
                 <address> 
-                    <abbr title="Phone">P:</abbr> 06 52 14 44 65 
+                    <abbr title="Phone">P:</abbr> 06 41 01 62 07 
                     <br> 
                     <abbr title="Email">E:</abbr> <a href="mailto:#">abnar21@gmail.com</a> 
                 </address> 
