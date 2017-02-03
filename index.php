@@ -67,7 +67,7 @@ include ("");
 break; 
 
 case "Historique": 
-include(""); 
+include("HistoriqueColle.php"); 
 break; 
 
 case "ClasseActuelle": 
