@@ -14,9 +14,9 @@
 <meta name="author" content=""> 
 <title>Accueil</title> 
 
-<link href="css/bootstrap.min.css" rel="stylesheet"> 
+<link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
 
-<link href="css/business-frontpage.css" rel="stylesheet"> 
+<link href="assets/css/business-frontpage.css" rel="stylesheet"> 
 
         </head> 
 
@@ -74,8 +74,8 @@ case "ClasseActuelle":
 include(""); 
 break; 
 
-case "AdministrationEleves": 
-include("/test/ppe/ppe3/adminEleve.php"); 
+case "adminEleve": 
+include("views/eleve/adminEleve.php"); 
 break; 
 
 case "": 
