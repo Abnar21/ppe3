@@ -1,15 +1,19 @@
-<div class="row">
-    <div class="col-md-2"></div>
-        <div class="col-md-8">
-		
-		<div class="row">
-			<h1>Historique des Colles</h1>
-		</div>
-		
-		</div>    
-	<div class="col-md-2"></div>
-</div>
-	<div class="row">
+<head>
+   
+</head>
+
+<body>
+    <header class="business-header"> 
+        <div class="container"> </body>
+        ::before 
+            <div class="row"> 
+                <div class="col-lg-12"> 
+                    <h1 class="tagline">Historique des colles</h1> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
+
 		Sélectionner une classe dans la liste suivante :
 	</div> 
 <select class="form-control">
