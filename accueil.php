@@ -51,7 +51,7 @@
             <div a href="index.php?AdminClasse"class="col-sm-4"> 
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt=""> 
                 <h2>Administration des classes</h2> 
-                <p>gerer les classes / rennomer la classe / créer une classe / consulter les classes </p> 
+                <p>gerer les classes / renommer la classe / créer une classe / consulter les classes </p> 
             </div> 
             <div a href="index.php?AdminProf" class="col-sm-4"> 
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt=""> 
