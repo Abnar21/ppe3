@@ -74,8 +74,8 @@ case "ClasseActuelle":
 include(""); 
 break; 
 
-case "": 
-include(""); 
+case "adminEleve": 
+include("views/eleve/adminEleve.php"); 
 break; 
 
 case "": 

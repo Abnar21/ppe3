@@ -44,7 +44,7 @@
 
         <div class="row"> 
             <div class="col-sm-4"> 
-                <a a href="index.php?action=adminEleve"> <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="" > 
+                <a a href="index.php?action=adminEleve.php"> <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="" > 
                 <h2>Administration des Eleves</h2> 
                 <p>Liste des eleves sanctionnés / Ajouter une sanction / Ajouter un eleve/supprimer un eleve/rechercher une classe</p> 
             </div> 
@@ -68,8 +68,8 @@ include ("vide.php");
 } else { 
 switch ($_GET["action"]) 
 { 
-case "AdminEleve": 
-include ("views/eleve/adminEleve.php"); 
+case "": 
+include (""); 
 break; 
 
 case "": 
