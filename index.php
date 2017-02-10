@@ -1,29 +1,16 @@
 <!DOCTYPE html> 
-<html lang="en"> 
-#shadow-root (open) 
-    <shadow> 
-        <head> ==$0 
-            <body> 
-    </shadow> 
-<style></style> 
-        </head> 
+<html lang="fr">
+<head>
+</head> 
 <meta charset="utf-8"> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta name="description" content=""> 
 <meta name="author" content=""> 
-<title>Accueil</title> 
-
-<link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
-
-<link href="assets/css/business-frontpage.css" rel="stylesheet"> 
-
-        </head> 
-
-
+<title>Acceuil</title> 
+<link href="assets/css/bootstrap.css" rel="stylesheet"> 
+</head> 
 <body> 
-
-
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
         <div class="container"> 
   
@@ -34,13 +21,13 @@
                     <span class="icon-bar"></span> 
                     <span class="icon-bar"></span> 
                 </button> 
-                <a class="navbar-brand" href="index.php">Accueil</a> 
+                <a class="navbar-brand" href="index.php?action=accueil">Accueil</a> 
             </div> 
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                 <ul class="nav navbar-nav"> 
                     <li> 
-                        <a href="index.php?action=ClasseActuel">Classe Actuelle</a> 
+                        <a href="index.php?action=ClasseActuel">Classe Actuel</a> 
                     </li> 
                     <li> 
                         <a href="index.php?action=Historique">Historique des colles</a> 
@@ -49,41 +36,40 @@
                         <a href="index.php?action=AdministrationSanction">Administration des criteres de sanction</a> 
                     </li> 
                 </ul> 
-            </div> 
-
+            </div>
         </div> 
-
-    </nav> 
-    </nav> 
-<?php 
-    if (isset($_GET["action"])==false) 
-{ 
-include ("accueil.php"); 
-} else { 
-switch ($_GET["action"]) 
-{ 
-case "AdministrationSanction": 
-include (""); 
-break; 
-
-case "Historique": 
-include("HistoriqueColle.php"); 
-break; 
-
-case "ClasseActuelle": 
-include(""); 
-break; 
-
-case "adminEleve": 
-include("views/eleve/adminEleve.php"); 
-break; 
-
-case "": 
-include(""); 
-break; 
-} 
-} 
-?> 
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <div class="starter-template">
+<?php
+                    if(isset($_GET["action"]))
+                    {
+                            // r�cupartion de l'action pass�e dans l'url
+                            $action=$_GET["action"];
+                            // test de la valeur de la variable
+                            switch ($action) {
+                                case "accueil":
+                                    include 'accueil.php';
+                                    break; 
+                                case "ClasseActuel":
+                                    include 'views/classeActuel.php';
+                                    break;
+                                case "Historique":
+                                    include 'views/colle/HistoriqueColle.php';
+                                    break;
+                                case "AdministrationSanction":
+                                    include 'views/sanction/adminSanction.php';
+                                    break;                                
+                            }
+                    }
+                    else
+                    {
+                         include 'connexion.php';
+                    }
+                   ?>
 
 
 <script src="js/jquery.js"></script> 
