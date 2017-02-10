@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container"> 
             <div class="navbar-header">
-            <a class="navbar-brand" href="">B.B.Q. Incorporation &reg</a><img src="view/Logo">                
+            <a class="navbar-brand" href="">B.B.Q. Incorporation &reg</a><img src="Images/Logo">                
         </div> 
     </div> 
 </nav>
