@@ -13,7 +13,7 @@
 
         <div class="row"> 
             <div class="col-sm-8"> 
-                <h2>Quel est l'utilité de ce site </h2> 
+                <h2>Quelle est l'utilitée de ce site </h2> 
                 <p>jrhtrgtehrgtrehrgthegt</p> 
                 <p>setgvztgvrtgvrrtvbrzgb</p>
             </div> 
