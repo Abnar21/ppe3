@@ -38,18 +38,18 @@
         <div class="row"> 
             <div class="col-sm-4"> 
                 <a a href="index.php?action=AdminEleve"> <img class="img-circle img-responsive img-center" src="Images/AdminEleve.png" alt="" > 
-                <h2>Administration des Eleves</h2> 
-                <p>Liste des eleves sanctionnés / Ajouter une sanction / Ajouter un eleve/ Supprimer un eleve/ Rechercher une classe</p> 
+                <h2>Administration des élèves</h2> 
+                <p>Liste des élèves sanctionnés / Ajouter une sanction / Ajouter un élève/ Supprimer un élève/ Rechercher une classe</p> 
             </div> 
             <div a href="index.php?action=AdminClasse"class="col-sm-4"> 
                 <img class="img-circle img-responsive img-center" src="Images/AdminClasse" alt=""> 
                 <h2>Administration des classes</h2>
-                <p>Gerer les classes / Rennomer la classe / Créer une classe / Consulter les classes </p></a>
+                <p>Gérer les classes / Renommer la classe / Créer une classe / Consulter les classes </p></a>
             </div> 
             <div <a href="index.php?action=AdminProf" class="col-sm-4"> 
                 <img class="img-circle img-responsive img-center" src="Images/AdminProf" alt=""> 
                 <h2>Administration Des Professeurs</h2> 
-                <p>Créer un prof / gérer les profs</p></a> 
+                <p>Créer un prof / Gérer les profs</p></a> 
             </div> 
         </div> 
 
