@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta name="description" content=""> 
 <meta name="author" content=""> 
-<title>Acceuil</title> 
+<title>Accueil</title> 
 <link href="assets/css/bootstrap.css" rel="stylesheet"> 
 </head> 
 <body> 
@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                 <ul class="nav navbar-nav"> 
                     <li> 
-                        <a href="index.php?action=ClasseActuel">Classe Actuel</a> 
+                        <a href="index.php?action=ClasseActuelle">Classe Actuelle</a> 
                     </li> 
                     <li> 
                         <a href="index.php?action=Historique">Historique des colles</a> 
                     </li> 
                     <li> 
-                        <a href="index.php?action=AdministrationSanction">Administration des criteres de sanction</a> 
+                        <a href="index.php?action=AdministrationSanction">Administration des critères de sanction</a> 
                     </li> 
                 </ul> 
             </div>
@@ -54,7 +54,7 @@
                                 case "accueil":
                                     include 'accueil.php';
                                     break; 
-                                case "ClasseActuel":
+                                case "ClasseActuelles":
                                     include 'views/classeActuel.php';
                                     break;
                                 case "Historique":
