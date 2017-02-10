@@ -54,7 +54,7 @@
                                 case "accueil":
                                     include 'accueil.php';
                                     break; 
-                                case "ClasseActuelles":
+                                case "ClasseActuelle":
                                     include 'views/classeActuel.php';
                                     break;
                                 case "Historique":
