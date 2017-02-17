@@ -66,6 +66,9 @@
                                 case "AdminEleve":
                                     include 'views/eleve/adminEleve.php';
                                     break;
+                                case "AdminClasse":
+                                    include 'views/promotion/adminClasse.php';
+                                    break;
                             }
                     }
                     else
