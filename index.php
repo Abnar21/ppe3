@@ -62,7 +62,10 @@
                                     break;
                                 case "AdministrationSanction":
                                     include 'views/sanction/adminSanction.php';
-                                    break;                                
+                                    break;
+                                case "AdministrationEleve":
+                                    include 'views/eleve/adminEleve.php';
+                                    break;
                             }
                     }
                     else
