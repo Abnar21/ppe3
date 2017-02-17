@@ -16,4 +16,23 @@
 <select class="form-control">
     <?php foreach ($classe as $uneClasse) ?>
 </select>
-    <h4><br><center><button><a href="adminEleve.php?action=uneClasse"/>Valider</button></center></h4>
+    <h4><br><center><a href="adminEleve.php?action=uneClasse"/><button>Valider</button></a></center></h4>
+
+<div class="row">
+	<table class="table table-bordered">
+            <thead>
+		<tr>
+                    <th>Nom élève</th>
+                    <th>Prénom élève</th>
+                    <th>Action</th>
+		</tr>
+            </thead>
+            <tbody>
+		<tr>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                </tr>
+            </tbody>
+	</table>
+</div>
