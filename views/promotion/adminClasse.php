@@ -1,4 +1,5 @@
-<table>
+<div class="row">
+<table class="table-bordered">
     <thead>
         <tr>
             <th>Classe</th>
@@ -7,7 +8,8 @@
     </thead>
     <tbody>
         <tr>
-            
+            <th></th>
         </tr>
     </tbody>    
 </table>
+</div>
