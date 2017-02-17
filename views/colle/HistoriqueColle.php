@@ -24,6 +24,26 @@
 </select>
 <div class="row">
 	<table class="table table-bordered">
+            <thead>
+		<tr>
+                    <th>Classe</th>
+                    <th>Nom élève</th>
+                    <th>Prénom élève</th>
+                    <th>Date</th>
+                    <th>Motif(s)</th>
+                    <th>Action</th>
+		</tr>
+            </thead>
+            <tbody>
+		<tr>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                </tr>
+            </tbody>
 	</table>
 </div>
 
