@@ -63,7 +63,7 @@
                                 case "AdministrationSanction":
                                     include 'views/sanction/adminSanction.php';
                                     break;
-                                case "AdministrationEleve":
+                                case "AdminEleve":
                                     include 'views/eleve/adminEleve.php';
                                     break;
                             }
