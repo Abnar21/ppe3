@@ -14,8 +14,8 @@
         <div class="row"> 
             <div class="col-sm-8"> 
                 <h2>Quelle est l'utilitée de ce site </h2> 
-                <p>jrhtrgtehrgtrehrgthegt</p> 
-                <p>setgvztgvrtgvrrtvbrzgb</p>
+                <p>Ce site va gérer tous les élèves et toutes les classes d'un lycée</p> 
+                <p></p>
             </div> 
             <div class="col-sm-4"> 
                 <h2>Contact Us</h2> 
