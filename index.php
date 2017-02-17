@@ -8,7 +8,9 @@
 <meta name="description" content=""> 
 <meta name="author" content=""> 
 <title>Accueil</title> 
-<link href="assets/css/bootstrap.css" rel="stylesheet"> 
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head> 
 <body> 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
@@ -78,8 +80,7 @@
                    ?>
 
 
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+
 
 
 
