@@ -42,12 +42,12 @@
                 <p>Liste des élèves sanctionnés / Ajouter une sanction / Ajouter un élève/ Supprimer un élève/ Rechercher une classe</p> 
             </div> 
             <div a href="index.php?action=AdminClasse"class="col-sm-4"> 
-                <img class="img-circle img-responsive img-center" src="Images/AdminClasse" alt=""> 
+                <img class="img-circle img-responsive img-center" src="Images/AdminClasse.png" alt="" > 
                 <h2>Administration des classes</h2>
                 <p>Gérer les classes / Renommer la classe / Créer une classe / Consulter les classes </p></a>
             </div> 
             <div <a href="index.php?action=AdminProf" class="col-sm-4"> 
-                <img class="img-circle img-responsive img-center" src="Images/AdminProf" alt=""> 
+                <img class="img-circle img-responsive img-center" src="Images/AdminProf.png" alt="" > 
                 <h2>Administration Des Professeurs</h2> 
                 <p>Créer un prof / Gérer les profs</p></a> 
             </div> 
