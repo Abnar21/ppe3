@@ -14,11 +14,11 @@
         <div class="row"> 
             <div class="col-sm-8"> 
                 <h2>Quelle est l'utilitée de ce site </h2> 
-                <p>jrhtrgtehrgtrehrgthegt</p> 
-                <p>setgvztgvrtgvrrtvbrzgb</p>
+                <h3><p>Ce site sert à gérer les élèves et les classes d'un lycée.</p></h3>
+                <p></p>
             </div> 
             <div class="col-sm-4"> 
-                <h2>Contact Us</h2> 
+                <h2>Contactez nous</h2> 
                 <address> 
                     <strong>B.B.Q. Incorporation ®</strong> 
                     <br>9 Avenue Rockefeller 
@@ -26,9 +26,9 @@
                     <br> 
                 </address> 
                 <address> 
-                    <abbr title="Phone">P:</abbr> 06 52 14 44 65 
+                    <abbr title="Phone">Téléphone:</abbr> 
                     <br> 
-                    <abbr title="Email">E:</abbr> <a href="mailto:#">abnar21@gmail.com</a> 
+                    <abbr title="Email">Email:</abbr> <a href="mailto:#"></a> 
                 </address> 
             </div> 
         </div> 
