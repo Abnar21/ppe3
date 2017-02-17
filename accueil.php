@@ -14,11 +14,11 @@
         <div class="row"> 
             <div class="col-sm-8"> 
                 <h2>Quelle est l'utilitée de ce site </h2> 
-                <p>jrhtrgtehrgtrehrgthegt</p> 
-                <p>setgvztgvrtgvrrtvbrzgb</p>
+                <h3><p>Ce site sert à gérer les élèves et les classes d'un lycée.</p></h3>
+                <p></p>
             </div> 
             <div class="col-sm-4"> 
-                <h2>Contact Us</h2> 
+                <h2>Contactez nous</h2> 
                 <address> 
                     <strong>B.B.Q. Incorporation ®</strong> 
                     <br>9 Avenue Rockefeller 
@@ -26,9 +26,9 @@
                     <br> 
                 </address> 
                 <address> 
-                    <abbr title="Phone">P:</abbr> 06 52 14 44 65 
+                    <abbr title="Phone">Téléphone:</abbr> 
                     <br> 
-                    <abbr title="Email">E:</abbr> <a href="mailto:#">abnar21@gmail.com</a> 
+                    <abbr title="Email">Email:</abbr> <a href="mailto:#"></a> 
                 </address> 
             </div> 
         </div> 
@@ -39,16 +39,30 @@
             <div class="col-sm-4"> 
                 <a href="index.php?action=AdminEleve"><img class="img-circle img-responsive img-center" src="Images/AdminEleve.png"> 
                 <h2>Administration des élèves</h2></a>
-                <p>Liste des élèves sanctionnés / Ajouter une sanction / Ajouter un élève/ Supprimer un élève/ Rechercher une classe</p> 
+                    <ul class="list-unstyled">
+                        <li><a href=""> Liste des élèves sanctionnés</a></li> 
+                        <li><a href="">Ajouter une sanction</a></li> 
+                        <li><a href="">Ajouter un élève</a></li>
+                        <li><a href="">Supprimer un élève</a></li>
+                        <li><a href="">Rechercher une classe</a></li>
+                    </ul>               
             </div> 
             <div class="col-sm-4">
                 <a href="index.php?action=AdminClasse"><img class="img-circle img-responsive img-center" src="Images/AdminClasse.png"> 
                 <h2>Administration des classes</h2></a>
-                <p>Gérer les classes / Renommer la classe / Créer une classe / Consulter les classes </p>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Gérer les classes</a></li> 
+                        <li><a href="">Renommer la classe</a></li> 
+                        <li><a href="">Créer une classe</a></li>
+                        <li><a href="">Consulter les classes</a></li>
+                    </ul>
             </div> 
             <div class="col-sm-4"><a href="index.php?action=AdminProf" ><img class="img-circle img-responsive img-center" src="Images/AdminProf.png"> 
                 <h2>Administration Des Professeurs</h2></a>
-                <p>Créer un prof / Gérer les profs</p>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Créer un professeur</a></li> 
+                        <li><a href="">Gérer les professeurs</a></li> 
+                    </ul>
             </div> 
         </div> 
 

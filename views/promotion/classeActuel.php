@@ -11,17 +11,11 @@
                 </select>
             </div> 
             <div class="col-sm-4"> 
-                <h2>Nous sommes le :</h2> 
-                <address> 
-                    <?php
-                    echo date('l jS F Y');
-                    ?>
-                </address>
-                
+
                 <?php
                     if(isset($_GET["tableau"]))
                     {
-                            // récupartion de l'action passée dans l'url
+                            // rï¿½cupartion de l'action passï¿½e dans l'url
                             $action=$_GET["tableau"];
                             // test de la valeur de la variable
                             switch ($tableau) {
