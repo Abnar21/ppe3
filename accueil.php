@@ -39,16 +39,30 @@
             <div class="col-sm-4"> 
                 <a href="index.php?action=AdminEleve"><img class="img-circle img-responsive img-center" src="Images/AdminEleve.png"> 
                 <h2>Administration des élèves</h2></a>
-                <p>Liste des élèves sanctionnés / Ajouter une sanction / Ajouter un élève/ Supprimer un élève/ Rechercher une classe</p> 
+                    <ul class="list-unstyled">
+                        <li><a href=""> Liste des élèves sanctionnés</a></li> 
+                        <li><a href="">Ajouter une sanction</a></li> 
+                        <li><a href="">Ajouter un élève</a></li>
+                        <li><a href="">Supprimer un élève</a></li>
+                        <li><a href="">Rechercher une classe</a></li>
+                    </ul>               
             </div> 
             <div class="col-sm-4">
                 <a href="index.php?action=AdminClasse"><img class="img-circle img-responsive img-center" src="Images/AdminClasse.png"> 
                 <h2>Administration des classes</h2></a>
-                <p>Gérer les classes / Renommer la classe / Créer une classe / Consulter les classes </p>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Gérer les classes</a></li> 
+                        <li><a href="">Renommer la classe</a></li> 
+                        <li><a href="">Créer une classe</a></li>
+                        <li><a href="">Consulter les classes</a></li>
+                    </ul>
             </div> 
             <div class="col-sm-4"><a href="index.php?action=AdminProf" ><img class="img-circle img-responsive img-center" src="Images/AdminProf.png"> 
                 <h2>Administration Des Professeurs</h2></a>
-                <p>Créer un prof / Gérer les profs</p>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Créer un professeur</a></li> 
+                        <li><a href="">Gérer les professeurs</a></li> 
+                    </ul>
             </div> 
         </div> 
 
