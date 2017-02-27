@@ -12,11 +12,11 @@
             <center><h1>Bienvenue</h1>
 <?php
     echo "<h4>IDENTIFICATION POUR L’ACCES AU SITE DE GESTION DES SANCTIONS</h4>";
-    echo "<br>Veuillez entrer votre login <input>";
-    echo "<br>";
-    echo "<br>Mot de passe <input>";
+    echo "<br>Veuillez entrer votre login : <input>";
+    echo "<br>Mot de passe : <input>";
 ?>
-    <h4><br><button><a href="index.php?action=accueil"/>Valider</button>
-    <p><br><a href=""/>Login / Mot de passe oublié ?</p></h4>
+<h4><br><button><a href="index.php?action=accueil">Valider</a></button>
+    <p><br><a href="">Login / Mot de passe oublié ?</a></p>
+    <p><br><a href="">Créer un compte</a></p></h4>
     <div class="col-md-2"></div>  
 </div>
