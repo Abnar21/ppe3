@@ -2,7 +2,7 @@
 <div class="row"> 
             <div class="col-sm-8"> 
                 <h2>Sélectionner la classe dans le menu déroulant</h2>
-                <label for="menu_destination_liste">Classes : </label> 
+                
                 <select name="menu_destination" id="menu_destination_liste">
                     <option>Selectionner</option>
                     <option value="index.php?tableau=1SSI">1SSI</option>
