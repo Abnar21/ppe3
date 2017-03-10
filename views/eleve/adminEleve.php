@@ -24,15 +24,22 @@
 		<tr>
                     <th>Nom élève</th>
                     <th>Prénom élève</th>
-                    <th>Action</th>
+                    <th colspan="2">Actions</th>
 		</tr>
             </thead>
+            <?php
+         foreach ($lesEleves as $unEleve)
+         {
+            ?>
             <tbody>
 		<tr>
-                    <th><?=$unEleve["nomEleve"]?></th>
-                    <th><?=$unEleve["prenomEleve"]?></th>
-                    <th>...</th>
+                    <td><?=$unEleve["nomEleve"]?></td>
+                    <td><?=$unEleve["prenomEleve"]?></td>
+                    <td><a href="index.php?action=erase&id=<?=$unEleve["id"]?>"><intput class="glyphicon glyphicon-remove-circle"></a></td>
                 </tr>
             </tbody>
+            <?php
+         }
+            ?>   
 	</table>
 </div>

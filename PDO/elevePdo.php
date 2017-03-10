@@ -32,3 +32,16 @@ function getOnlyEleve($id){
         echo 'Échec lors de la récupération des sujets : ' . $e->getMessage();
     }
 }
+
+function eraseEleve($id){
+    try{
+        $connection = new PDO("mysql:host=localhost;dbname=".BD.";charset=utf8", USER_BD, PWD_BD);
+        $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $requete=$connection->prepare('DELETE FROM eleve WHERE id=:id');
+        $requete->bindValue(':id',$id);
+        $requete->execute();
+        $connection=null;
+    } catch (PDOException $e) {
+        echo "Echec lors de la supression de l'élève";
+    }
+}

@@ -48,9 +48,10 @@
       <div class="starter-template">
 <?php
 require 'PDO/functions.php';
-require 'PDO/elevePdo.php';
 require 'resources/config.php';
 require 'resources/helper.php';
+require 'PDO/ClassePdo.php';
+require 'PDO/elevePdo.php';
                     if(isset($_GET["action"]))
                     {
                             // r�cupartion de l'action pass�e dans l'url
@@ -64,25 +65,21 @@ require 'resources/helper.php';
                                     include 'views/promotion/classeActuel.php';
                                     break;
                                 case "Historique":
+                                    $lesClasses= getAllClasse();
                                     include 'views/colle/HistoriqueColle.php';
                                     break;
                                 case "AdministrationSanction":
                                     include 'views/sanction/adminSanction.php';
                                     break;
                                 case "AdminEleve":
-                                    $unEleve= getOnlyEleve($id);
-                                    header('location : views/eleve/adminEleve.php');
+                                    $lesEleves=getAllEleves();
+                                    include 'views/eleve/adminEleve.php';
                                     break;
+                                case 'erase':
+                                    
                                 case "AdminClasse":
                                     
                                     include 'views/promotion/adminClasse.php';
-                                    break;
-                                case 'checkLogin':
-                                    admin($_POST['login'], sha1($_POST['pwd']));
-                                    if ($isAdmin==1)
-                                    {
-                                        session_start($isAdmin);
-                                    }
                                     break;
                             }
                     }
