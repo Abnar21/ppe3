@@ -50,6 +50,7 @@
 require 'PDO/functions.php';
 require 'resources/config.php';
 require 'resources/helper.php';
+require 'PDO/ClassePdo.php';
                     if(isset($_GET["action"]))
                     {
                             // r�cupartion de l'action pass�e dans l'url
