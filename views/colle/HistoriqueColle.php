@@ -12,14 +12,16 @@
             </div> 
         </div> 
     </header> 
-
+            <?php
+            foreach ($lesClasses as $uneClasse){
+                ?>
 		Sélectionner une classe dans la liste suivante :
         <select name="menu_destination" id="menu_destination_liste">
-                    <option>Classes</option>
-                     <option value="index.php?tableau=1SSI">1SSI</option>
-                     <option value="index.php?tableau=TSSI">TSSI</option> 
-                     <option value="index.php?tableau=1BACPROSN">1BACPROSN</option>
+                     <option><?= $uneClasse["libelle"]?></option>
         </select>
+                <?php
+                }
+                ?>
 <div class="row">
 	<table class="table table-bordered">
             <thead>
