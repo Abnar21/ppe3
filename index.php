@@ -47,6 +47,9 @@
     <div class="container">
       <div class="starter-template">
 <?php
+require 'PDO/functions.php';
+require 'resources/config.php';
+require 'resources/helper.php';
                     if(isset($_GET["action"]))
                     {
                             // r�cupartion de l'action pass�e dans l'url
@@ -66,9 +69,11 @@
                                     include 'views/sanction/adminSanction.php';
                                     break;
                                 case "AdminEleve":
+                                    $classe= getAllClass();
                                     include 'views/eleve/adminEleve.php';
                                     break;
                                 case "AdminClasse":
+                                    
                                     include 'views/promotion/adminClasse.php';
                                     break;
                             }

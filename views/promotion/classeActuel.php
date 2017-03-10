@@ -5,9 +5,9 @@
                 
                 <select name="menu_destination" id="menu_destination_liste">
                     <option>Selectionner</option>
-                     <option value="index.php?tableau=1SSI">1SSI</option>
-                     <option value="index.php?tableau=TSSI">TSSI</option> 
-                     <option value="index.php?tableau=1BACPROSN">1BACPROSN</option>
+                    <option value="index.php?tableau=1SSI">1SSI</option>
+                    <option value="index.php?tableau=TSSI">TSSI</option> 
+                    <option value="index.php?tableau=1BACPROSN">1BACPROSN</option>
                 </select>
             </div> 
             <div class="col-sm-4"> 
@@ -15,18 +15,18 @@
                 <?php
                     if(isset($_GET["tableau"]))
                     {
-                            // r�cupartion de l'action pass�e dans l'url
+                            // recuperation de l'action passee dans l'url
                             $action=$_GET["tableau"];
                             // test de la valeur de la variable
                             switch ($tableau) {
                                 case "1SSI":
-                                    include 'view/accueil.php';
+                                    include '';
                                     break; 
                                 case "TSSI":
-                                    include 'view/classeActuel.php';
+                                    include '';
                                     break;
                                 case "1BACPROSN":
-                                    include 'view/historique.php';
+                                    include '';
                                     break;                               
                             }
                     }
