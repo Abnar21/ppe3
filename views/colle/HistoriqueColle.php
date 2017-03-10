@@ -11,17 +11,17 @@
                 </div> 
             </div> 
         </div> 
-    </header> 
+    </header> Sélectionner une classe dans la liste suivante :      
+        <select name="menu_destination" id="menu_destination_liste">
             <?php
             foreach ($lesClasses as $uneClasse){
                 ?>
-		Sélectionner une classe dans la liste suivante :
-        <select name="menu_destination" id="menu_destination_liste">
+		
                      <option><?= $uneClasse["libelle"]?></option>
-        </select>
+       
                 <?php
                 }
-                ?>
+                ?> </select>
 <div class="row">
 	<table class="table table-bordered">
             <thead>
@@ -36,12 +36,18 @@
             </thead>
             <tbody>
 		<tr>
-                    <th>...</th>
-                    <th>...</th>
-                    <th>...</th>
-                    <th>...</th>
-                    <th>...</th>
-                    <th>...</th>
+                    <?php
+            foreach ($lesEleves as $unEleve){
+                ?>
+                    <th><?= $uneClasse["libelle"]?></th>
+                    <th><?= $unEleve["nomEleve"]?></th>
+                    <th><?= $unEleve["prenomEleve"]?></th>
+                    <th>Date</th>
+                    <th>Motif</th>
+                    <th>Action</th>
+                    <?php
+                    }
+                    ?>
                 </tr>
             </tbody>
 	</table>
