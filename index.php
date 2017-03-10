@@ -63,6 +63,7 @@ require 'resources/helper.php';
                                     include 'views/promotion/classeActuel.php';
                                     break;
                                 case "Historique":
+                                    $lesClasses= getAllClasse();
                                     include 'views/colle/HistoriqueColle.php';
                                     break;
                                 case "AdministrationSanction":
