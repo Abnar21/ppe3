@@ -29,8 +29,8 @@
             </thead>
             <tbody>
 		<tr>
-                    <th>...</th>
-                    <th>...</th>
+                    <th><?=$unEleve["nomEleve"]?></th>
+                    <th><?=$unEleve["prenomEleve"]?></th>
                     <th>...</th>
                 </tr>
             </tbody>

@@ -48,6 +48,7 @@
       <div class="starter-template">
 <?php
 require 'PDO/functions.php';
+require 'PDO/elevePdo.php';
 require 'resources/config.php';
 require 'resources/helper.php';
                     if(isset($_GET["action"]))
@@ -69,12 +70,19 @@ require 'resources/helper.php';
                                     include 'views/sanction/adminSanction.php';
                                     break;
                                 case "AdminEleve":
-                                    $classe= getAllClass();
-                                    include 'views/eleve/adminEleve.php';
+                                    $unEleve= getOnlyEleve($id);
+                                    header('location : views/eleve/adminEleve.php');
                                     break;
                                 case "AdminClasse":
                                     
                                     include 'views/promotion/adminClasse.php';
+                                    break;
+                                case 'checkLogin':
+                                    admin($_POST['login'], sha1($_POST['pwd']));
+                                    if ($isAdmin==1)
+                                    {
+                                        session_start($isAdmin);
+                                    }
                                     break;
                             }
                     }
