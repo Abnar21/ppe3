@@ -12,3 +12,23 @@
             </div> 
         </div> 
     </header> 
+    
+    <div class="row">
+	<table class="table table-bordered">
+            <thead>
+		<tr>
+                    <th>Critère de sanction (mot-clé)</th>
+                    <th>Description de la sanction</th>
+                    <th>Action</th>
+		</tr>
+            </thead>
+            <tbody>
+		<tr>
+                    <th>...</th>
+                    <th>...</th>
+                    <th>...</th>
+                </tr>
+            </tbody>
+	</table>
+</div>
+    <input type="submit" value="Ajouter une sanction" />

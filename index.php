@@ -51,7 +51,7 @@ require 'PDO/functions.php';
 require 'resources/config.php';
 require 'resources/helper.php';
 require 'PDO/ClassePdo.php';
-require 'PDO/elevePdo.php';
+require 'PDO/ElevesPdo.php';
                     if(isset($_GET["action"]))
                     {
                             // r�cupartion de l'action pass�e dans l'url
@@ -66,9 +66,14 @@ require 'PDO/elevePdo.php';
                                     break;
                                 case "Historique":
                                     $lesClasses= getAllClasse();
+
+
+
+                                    $lesEleves= getAllEleves();
+
                                     include 'views/colle/HistoriqueColle.php';
                                     break;
-                                case "AdministrationSanction":
+                                case "AdministrationSanction": 
                                     include 'views/sanction/adminSanction.php';
                                     break;
                                 case "AdminEleve":
