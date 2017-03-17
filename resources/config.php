@@ -1,5 +1,5 @@
 <?php
 define('BD',"ppe2");
 define('USER_BD',"root");
-define('PWD_BD',"");
+define('PWD_BD',"root");
 ?>
