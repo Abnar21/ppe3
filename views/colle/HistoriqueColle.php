@@ -42,7 +42,7 @@
                     <th><?= $uneClasse["libelle"]?></th>
                     <th><?= $unEleve["nomEleve"]?></th>
                     <th><?= $unEleve["prenomEleve"]?></th>
-                    <th>Date</th>
+                    <th></th>
                     <th>Motif</th>
                     <th>Action</th>
                     <?php

@@ -52,6 +52,7 @@ require 'resources/config.php';
 require 'resources/helper.php';
 require 'PDO/ClassePdo.php';
 require 'PDO/ElevesPdo.php';
+require 'PDO/SanctionsPdo.php';
                     if(isset($_GET["action"]))
                     {
                             // r�cupartion de l'action pass�e dans l'url
@@ -72,6 +73,19 @@ require 'PDO/ElevesPdo.php';
                                     break;
                                 case "AdministrationSanction": 
                                     include 'views/sanction/adminSanction.php';
+                                    break;
+                                case "ajoutersanction":
+                                    include 'views/sanction/ajoutSanction.php';
+                                    break;
+                                case "createSanction":
+                                    try
+                                    {
+                                     createSanction($_POST["descriptionSanction"]);
+									}
+                                    catch (PDOException $e) {
+                                    echo 'Échec lors de la récupération des sanctions : ' . $e->getMessage();
+                                    }
+                                    header('Location: index.php?action=AdministrationSanction');  
                                     break;
                                  case "checkLogin":
                                     $prof["login"] = $_POST["login"];

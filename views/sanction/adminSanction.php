@@ -27,4 +27,4 @@
             </tbody>
 	</table>
 </div>
-    <input type="submit" value="Ajouter une sanction" />
+    <a href="index.php?action=ajoutersanction"><button class="btn btn-info">Ajouter une sanction</button></a>
