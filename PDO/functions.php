@@ -2,7 +2,7 @@
 function logUser($prof){
     try
     {
-        $connection = new PDO("mysql:host=localhost;dbname=ppe2;charset=utf8", 'root', '');
+        $connection = new PDO("mysql:host=localhost;dbname=ppe2;charset=utf8", 'root', 'root');
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $requete = $connection->prepare('select count(*)as nb from prof where login=:login and pwd=:pwd');
         $requete->bindValue(':login', $prof["login"], PDO::PARAM_STR);

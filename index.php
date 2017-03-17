@@ -68,7 +68,6 @@ require 'PDO/SanctionsPdo.php';
                                 case "Historique":
                                     $lesClasses= getAllClasse();
                                     $lesEleves= getAllEleves();
-
                                     include 'views/colle/HistoriqueColle.php';
                                     break;
                                 case "AdministrationSanction": 
@@ -103,14 +102,17 @@ require 'PDO/SanctionsPdo.php';
                                     }
                                     break;
                                 case "AdminEleve":
-                                    $lesEleves=getAllEleves();
-                                    include 'views/eleve/adminEleve.php';
+                                    $lesClasses= getAllClasse();
+                                    $lesEleves= getAllEleves();
+                                    include 'views/eleve/AdminEleve.php';
                                     break;
-                                case 'erase':
-                                    
+                                case 'SelectClasseAdminEleve':
+                                    $lesEleves= getAllClass();
+                                    include 'views/eleve/AdminEleve.php';
+                                    break;                                   
                                 case "AdminClasse":
-                                    
-                                    include 'views/promotion/adminClasse.php';
+                                  
+                                    include 'views/promotion/AdminClasse.php';
                                     break;
                             }
                     }
