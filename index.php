@@ -76,6 +76,21 @@ require 'PDO/ElevesPdo.php';
                                 case "AdministrationSanction": 
                                     include 'views/sanction/adminSanction.php';
                                     break;
+                                 case "checkLogin":
+                                    $prof["login"] = $_POST["login"];
+                                    $prof["pwd"] = sha1($_POST["pwd"]);
+                                    $res=logUser($prof);
+                                    if($res==1)
+                                    {
+                                    $_SESSION["user"]=$_POST["login"];
+                                    include 'accueil.php';
+                                    }
+                                    else
+                                    {
+                                        include 'connexion.php';
+                                        echo "Erreur ! Nom d'utilisateur ou mot de passe incorrect !";
+                                    }
+                                    break;
                                 case "AdminEleve":
                                     $lesEleves=getAllEleves();
                                     include 'views/eleve/adminEleve.php';
