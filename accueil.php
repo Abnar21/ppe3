@@ -26,7 +26,7 @@
                     <br> 
                 </address> 
                 <address> 
-                    <abbr title="Phone">Téléphone:</abbr> 
+                    <abbr title="Phone">Téléphone:06 52 14 44 65</abbr> 
                     <br> 
                     <abbr title="Email">Email:</abbr> <a href="mailto:#"></a> 
                 </address> 
