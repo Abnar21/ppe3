@@ -1,7 +1,3 @@
-<head>
-   
-</head>
-
 <body>
     <header class="business-header"> 
         <div class="container"> </body> 
