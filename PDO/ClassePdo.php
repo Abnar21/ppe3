@@ -1,4 +1,4 @@
-<?php
+e<?php
                   
 function getAllClasse(){
     try

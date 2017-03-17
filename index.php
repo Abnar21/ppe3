@@ -66,9 +66,6 @@ require 'PDO/ElevesPdo.php';
                                     break;
                                 case "Historique":
                                     $lesClasses= getAllClasse();
-
-
-
                                     $lesEleves= getAllEleves();
 
                                     include 'views/colle/HistoriqueColle.php';
