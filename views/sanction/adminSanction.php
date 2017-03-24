@@ -23,8 +23,9 @@
                     <th>...</th>
                     <th>...</th>
                     <th>...</th>
+                    
                 </tr>
             </tbody>
 	</table>
 </div>
-    <a href="index.php?action=ajoutersanction"><button class="btn btn-info">Ajouter une sanction</button></a>
+    <a href="index.php?action=ajoutersanction"><button type="button" class="btn btn-default">Ajouter une sanction</button></a>
