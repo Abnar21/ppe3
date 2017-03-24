@@ -45,6 +45,9 @@
                     <th>...</th>
                     <th>Motif</th>
                     <th>Action</th>
+                    <th>...</th>
+                    <th>...</th>
+
                     <?php
                     }
                     ?>
