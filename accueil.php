@@ -41,7 +41,7 @@
                 <h2>Administration des élèves</h2></a>
                     <ul class="list-unstyled">
                         <li><a href=""> Liste des élèves sanctionnés</a></li> 
-                        <li><a href="">Ajouter une sanction</a></li> 
+                        <li><a href="index.php?action=ajoutersanction">Ajouter une sanction</a></li> 
                         <li><a href="">Ajouter un élève</a></li>
                         <li><a href="">Supprimer un élève</a></li>
                         <li><a href="">Rechercher une classe</a></li>
